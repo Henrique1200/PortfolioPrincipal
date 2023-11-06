@@ -1,0 +1,116 @@
+#projetos {
+    background-color: black;
+}
+
+.projetos {
+    padding-top: 120px;
+}
+
+.projetos h2, .projetos a {
+    text-align: center;
+    
+}
+
+.projetos h2 {
+    padding-bottom: 70px;
+}
+
+button {
+    padding: 10px 100px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(102, 193, 236);
+    border: none;
+    transition: ease-in-out 0.3s;
+}
+
+button:hover {
+    background-color:rgb(102, 193, 236);
+}
+
+.github-link {
+    margin: 0 auto;
+    padding-top: 35px;
+    padding-bottom: 93px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.projetos a {
+    display: inline;
+}
+
+.pro {
+    background-color:white;
+    height: 195px;
+    width: 310px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    animation: fromTop .7s .2s backwards;
+}
+.sub-title {
+    color:white;
+    text-align: center;
+    padding-top: 1x;
+}
+
+.pro:hover {
+    letter-spacing: 5px;
+}
+
+.channel-list img{
+    
+    width: 1000px;
+    border: 1px solid #443e54;
+    animation: fromTop .7s .2s backwards;
+}
+.pro div {
+    width: 1000px;
+    text-align: center;
+    padding: 5% 0;
+   
+}
+
+.escondido {
+    opacity: 0;
+    display: none;
+    transition: 1000ms;
+}
+
+.projetos-itens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29.5px;
+    width: 100%;
+    justify-content: center;
+}
+
+@keyframes fromTop {
+    from{
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fromBottom {
+    from{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

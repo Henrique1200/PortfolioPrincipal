@@ -1,0 +1,78 @@
+#habilidades {
+    background-color: black;
+    
+}
+
+.habilidades-pd {
+    padding-top: 93px;
+}
+
+.habilidades-pd h2 { 
+    text-align: center;
+    padding-bottom: 70px;
+    
+}
+
+
+ .card-habilidades-container-geral {
+    display: flex;
+    padding-bottom: 70px;
+    flex-direction: column-reverse;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 0.938em;
+  } 
+  
+
+  .list-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 100%;
+}
+  
+  .button {
+    padding-top: 10px;
+    padding: 10px ;
+    border-radius: 25px;
+    position: absolute;
+    cursor: pointer;
+    color: white;
+    background-color:rgb(102, 193, 236);
+    border: none;
+    transition: ease-in-out 0.3s;
+}
+.img-skill-div {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+} 
+  /*!hover nos cards skills*/
+  .img-skill-div span {
+    display: inline-block;
+    padding: 0.4em;
+    font-weight: bold;
+    font-size: 2vh;
+    position: absolute;
+    bottom: 5em;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, 0%);
+    background: RGBA(224, 255, 255, 1);
+    color: var(--cor-black-0);
+  }
+  /* !hover nos cards skills*/
+  .img-skill-div:hover span {
+    display: inline-block;
+    opacity: 1;
+    box-shadow: 0 0 13px 5px RGBA(240, 248, 255, 1);
+    border-radius: 5px;
+  }
+  
+  .card-habilidades-container-geral h3 {
+    display: inline-block;
+    font-size: clamp(1.5rem, 1.5vw, 5.5rem);
+    bottom: 80em;
+  }
+  
